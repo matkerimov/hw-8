@@ -71,7 +71,7 @@ ul {
 }
 
 .about-pet {
-    padding: 166px 0 0 135px;
+    padding: 166px 0 0 0;
 }
 
 .about-we {
@@ -95,6 +95,7 @@ ul {
 }
 
 .about-desc {
+    width: 570px;
     font-size: 18px;
     line-height: 20px;
     text-transform: capitalize;
@@ -103,12 +104,12 @@ ul {
 }
 
 .about-img {
-    top: 246px;
-    right: 135px;
+    position: absolute;
+    top: 0;
     margin: 0 auto;
 }
 
-.button {
+.pet-link {
     font-weight: bold;
     font-size: 20px;
     line-height: 20px;
@@ -176,8 +177,7 @@ ul {
     line-height: 20px;
     text-align: center;
     color: #4F52A2;
-    margin: 0 45px 64px 45px;
-
+    width: 279px;
 }
 
 .sale-title {
@@ -315,6 +315,7 @@ ul {
     background: #1B8EFF;
     position: relative;
     padding: 78px 0 115px;
+    height: 435px;
 }
 
 .about-box {
@@ -351,10 +352,10 @@ ul {
     padding: 16px 67px;
 }
 
-.about-img img {
+.pet-img img {
     position: absolute;
-    top: 0;
-    bottom: 100px;
+    top: 176px;
+    right: 200px;
 }
 
 .benefits {
